@@ -13,6 +13,9 @@ public class TalkingTextFunctionality : MonoBehaviour {
 	private string[] Dialog;
 	private bool hurryUp = false;
 
+	public delegate void DialogHandler (); 
+	public event DialogHandler FinishedWriting;
+
 	void Awake(){
 		message = gameObject.GetComponentInChildren<Text> (); 
 		current = null; 
@@ -39,7 +42,7 @@ public class TalkingTextFunctionality : MonoBehaviour {
 			message.text = ""; 
 			hurryUp = false;//<---
 			foreach(char letter in paragraph){
-				message.text += letter; 
+				message.text += letter;  
 				if (!hurryUp) {
 					yield return new WaitForSeconds (WritingTime * Time.deltaTime); 
 				}
@@ -47,6 +50,8 @@ public class TalkingTextFunctionality : MonoBehaviour {
 			StopCoroutine(hurryUpCoroutine);
 			yield return StartCoroutine(WaitForSubmit());
 		}
+		FinishedWriting (); 
+
 	}
 
 	IEnumerator WaitForSubmit()

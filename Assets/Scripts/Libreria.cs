@@ -1,4 +1,5 @@
 ﻿using System; 
+using UnityEngine; 
 
 namespace CustomLibrary {
 
@@ -28,12 +29,14 @@ namespace CustomLibrary {
 				root.dialog = story.dialogs [node]; 
 				root.yes = ParseStory (story, root.dialog.next, root.dialog.nextType);
 				root.no = root.yes;
+				root.nodeType = nodeType; 
 			}else if(nodeType == NodeType.Question){
 				root.question = story.questions [node]; 
 				root.yes = ParseStory (story, root.question.yes, NodeType.Dialog);
 				root.no = ParseStory (story, root.question.no, NodeType.Dialog);
+				root.nodeType = nodeType; 
 			}
-
+				
 			return root; 
 		}
 	}

@@ -12,23 +12,42 @@ public class DialogComponent : MonoBehaviour {
 	private TalkingTextFunctionality DialogBox;
 	private QuestionFunctionality QuestionBox; 
 	private DialogTree theDialog; 
+	DialogTree iterator; 
 
-	// Use this for initialization
 	void Start () {
 		DialogBox = FindObjectOfType<TalkingTextFunctionality> (); 
-		QuestionBox = FindObjectOfType<QuestionFunctionality> ();  
+		QuestionBox = FindObjectOfType<QuestionFunctionality> (); 
 		story = JsonUtility.FromJson<Story>(Dialogs.text);
 		theDialog =  DialogTree.ParseStory (story, 0, NodeType.Dialog); 
-		DialogTree iterator = theDialog; 
-		while (iterator != null) {
-			if (iterator.nodeType == NodeType.Dialog) {
-				DialogBox.StartWriting (iterator.dialog.paragraphs); 
-			}else if(iterator.nodeType == NodeType.Question){
-				QuestionBox.StartWriting (iterator.question.text, iterator.question.answers); 
-			}else if(iterator.nodeType == NodeType.None){
-				Debug.Log ("Time to get spooked"); 
-			}
+		iterator = theDialog; 
+		DialogBox.FinishedWriting += ChangeIterator; 
+		QuestionBox.OnOptionSelected += ChangeIteratorQuestion; 
+		WriteNextDialog ();
 
+	}
+
+	void ChangeIterator(){
+		iterator = iterator.yes; 
+		if(iterator!=null)
+			WriteNextDialog (); 
+	}
+	void ChangeIteratorQuestion(QuestionAnswer ans){
+		if (ans == QuestionAnswer.Yes) {
+			iterator = iterator.yes; 
+		} else {
+			iterator = iterator.no; 
+		}
+		if(iterator!=null && iterator.nodeType == NodeType.Dialog)
+			WriteNextDialog (); 
+	}
+
+	void WriteNextDialog(){
+		if (iterator.nodeType == NodeType.Dialog) {
+			DialogBox.StartWriting (iterator.dialog.paragraphs); 
+		}else if(iterator.nodeType == NodeType.Question){
+			QuestionBox.StartWriting (iterator.question.text, iterator.question.answers); 
+		}else if(iterator.nodeType == NodeType.None){
+			Debug.Log ("Time to get spooked"); 
 		}
 	}
 }

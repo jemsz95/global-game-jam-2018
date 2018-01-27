@@ -16,7 +16,6 @@ public class QuestionFunctionality : MonoBehaviour {
 	private QuestionAnswer selected;
 	
 	public delegate void OptionHandler(QuestionAnswer ans);
-
 	public event OptionHandler OnOptionSelected;
 
 	// Use this for initialization
@@ -45,6 +44,8 @@ public class QuestionFunctionality : MonoBehaviour {
 	
 	IEnumerator WaitForOption() {
 		selected = QuestionAnswer.Yes;
+		yield return new WaitForEndOfFrame(); 
+		message.text += "\n"+"<b>" + options[0] + "</b>" + "\n" + options[1];
 		while(!Input.GetButtonDown("Submit")) {
 			if(Input.GetButtonDown("Vertical") || Input.GetButtonDown("Horizontal")) {
 				selected = selected == QuestionAnswer.Yes ? QuestionAnswer.No : QuestionAnswer.Yes;
@@ -64,10 +65,8 @@ public class QuestionFunctionality : MonoBehaviour {
 		hurryUpCoroutine = StartCoroutine (ListenHurryUp ()); 
 		message.text = ""; 
 		foreach(char letter in question){
-			message.text += letter; 
-			if (!hurryUp) {
-				yield return null; 
-			}
+			message.text += letter;  
+			yield return new WaitForSeconds(0); 
 		}
 		StopCoroutine (hurryUpCoroutine); 
 		yield return StartCoroutine(WaitForOption());
