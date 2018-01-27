@@ -4,11 +4,66 @@
         {
             "id": 0,
             "paragraphs": [
-                "Legs weak, arms are heavy",
-                "There's vomit on his sweater aready: mom's spaghetti.",
-                "He's nervous but on the surface he looks calm and ready",
-                "He keeps on forgetting what he wrote down"
-            ]
+                "Oh... hello there",
+                "Mi nombre es Ghosty",
+                "Todo empezó un día de abril, con una serie de decisiones que me llevaron a terminar de esta manera.",
+                "¿Cómo me convertí en fantasma?",
+                "La verdad es que no recuerdo todo lo que pasó pero se que recuerdo los sucesos importantes de aquel día. Desperté aquel miércoles de abril con una simple decisión…"
+            ],
+            "character": 0
+        },
+        {
+            "id": 1,
+            "paragraphs": [
+                "Esta mañana me sentía con animos de trabajar, me gustaba bastante mi trabajo",
+                "Al fin hab[ia conseguido mi trabajo soñado",
+                "desarrollador de videojuegos en Nientiendo.", 
+                "Con sede en la hermosa ciudad de Sokyo."
+            ],
+            "character": 0
+        },
+        {
+            "id": 2,
+            "paragraphs": [
+                "Tenía tiempo cuestionando mi meta en la vida y la razón por la que vivo.",
+                "Había conseguido el trabajo de mis sueños, pero ¿qué seguía después de eso?",
+                "Fracasas en algo y sigues intentando, pero si lo consigues, solo te sientes satisfecho por un momento",
+                "y después… ¿qué?",
+                "simplemente te sigues exigiendo y nunca eres feliz…",
+                "o tal vez lo eres por ciertos momentos…",
+                "quizás solo tenía hambre."
+            ],
+            "character": 0
+        },
+        {
+            "id": 3,
+            "paragraphs": [
+                "Me había comprado un carro del año, un Koyota Pruis", 
+                "uno de esos carros que se manejan solos y hacen que te crezca el ego como persona.",
+                "Normalmente lo usaba para ir al parque",
+                "pero hoy tenía muchas ganas de llegar rápido a trabajar para empezar el día.",
+                "#Godin"
+            ],
+            "character": 0
+        },
+        {
+            "id": 4,
+            "paragraphs": [
+                "Aunque tenía carro propio, me gustaba ir en el transporte público, a veces conocía gente interesante, o simplemente por el hecho de poder ir leyendo mientras me transporto. Sin embargo esta vez el viaje en camión no fue una experiencia agradable. De todas las personas con las que me podía haber topado, me tuve que encontrar con Lucius, un compañero del trabajo que parecía tener una vendetta en contra mía."
+            ],
+            "character": 0
         }
-    ] 
+    ],
+    "questions": [
+        {
+            "id": 0,
+            "text": "¿Ir al trabajo?",
+            "answers": [
+                "Esa mañana me sentía con ganas de trabajar",
+                "Tenia tiempo cuestionando mis metas en la vida..."
+            ],
+            "yes": 1,
+            "no": 2
+        }
+    ]
 }
