@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace CustomLibrary {
-	public enum Chacacter {
+	public enum Character {
 		Ghosty, Lucius, Alex, Royal
 	}
 
@@ -9,6 +9,6 @@ namespace CustomLibrary {
 	public class Dialog {
 		public int id;
 		public string[] paragraphs;
-		public Chacacter characterId;
+		public Character characterId;
 	}
 }
