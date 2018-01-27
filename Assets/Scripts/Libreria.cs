@@ -8,7 +8,12 @@ namespace CustomLibrary {
 	[Serializable]
 	public class AFD{
 		public StoryStates CurrentState; 
-		StoryStates AdvanceToNextState(bool yesOrNo){
+		public int DialogID; 
+		AFD(){
+			CurrentState = StoryStates.A; 
+			DialogID = 0; 
+		}
+		public StoryStates AdvanceToNextState(bool yesOrNo){
 			if (CurrentState == StoryStates.A) {
 				if (yesOrNo) {
 					CurrentState = StoryStates.C; 
