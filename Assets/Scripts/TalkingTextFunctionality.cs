@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI; 
 
 public class TalkingTextFunctionality : MonoBehaviour {
+	[Range(0,0.5f)]
+	public float WritingTime = 0; 
 
 	private Text message; 
 	private Coroutine current; 
-	[Range(0,10)]
-	private float WrittingTime = 0; 
 	private string[] Dialog; 
 	private bool hurryUp; 
 
@@ -18,12 +18,12 @@ public class TalkingTextFunctionality : MonoBehaviour {
 		hurryUp = false; 
 	}
 		
-	public void StartWritting(string[] dialog){
+	public void StartWriting(string[] dialog){
 		Dialog = dialog; 
 		current = null; 
 		current = StartCoroutine (WriteText()); 
 	}
-	public void StopWritting(){
+	public void StopWriting(){
 		if (current != null) {
 			StopCoroutine (current); 
 		}
@@ -41,7 +41,7 @@ public class TalkingTextFunctionality : MonoBehaviour {
 			foreach(char letter in paragraph){
 				message.text += letter; 
 				if (!hurryUp) {
-					yield return new WaitForSeconds (WrittingTime); 
+					yield return new WaitForSeconds (WritingTime); 
 				}
 			} 
 			yield return StartCoroutine(WaitForSubmit());
