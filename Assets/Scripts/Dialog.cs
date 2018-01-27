@@ -2,7 +2,7 @@
 
 namespace CustomLibrary {
 	public enum Chacacter {
-		Ghosty, Lucias, Alexis, Royal
+		Ghosty, Lucius, Alex, Royal
 	}
 
 	[Serializable]
