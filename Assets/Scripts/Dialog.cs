@@ -13,6 +13,8 @@ namespace CustomLibrary {
 	public class Dialog {
 		public int id;
 		public string[] paragraphs;
-		public Character characterId;
+		public Character character;
+		public NextType nextType;
+		public int next;
 	}
 }
