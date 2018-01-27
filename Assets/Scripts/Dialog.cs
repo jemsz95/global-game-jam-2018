@@ -4,7 +4,7 @@ namespace CustomLibrary {
 	public enum Character {
 		Ghosty, Lucius, Alex, Royal
 	}
-
+		
 	public enum NodeType {
 		Dialog, Question, None
 	}
