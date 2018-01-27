@@ -113,33 +113,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &275514498
+--- !u!1 &275540914
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 1682611587935244, guid: 39c99c0ef49c64bc2827ba1646e9f846,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 275514499}
+  - component: {fileID: 275540915}
   m_Layer: 0
-  m_Name: Spawn Point
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &275514499
+--- !u!4 &275540915
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 4177141473989760, guid: 39c99c0ef49c64bc2827ba1646e9f846,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 275514498}
+  m_GameObject: {fileID: 275540914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.3870027, y: 4.788312, z: -0.15994692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604063909
 GameObject:
@@ -418,51 +420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256438d5a191745b19e1ee3a656b3c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1420026060
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1420026062}
-  - component: {fileID: 1420026061}
-  m_Layer: 0
-  m_Name: Network Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1420026061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1420026060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ce33878d9dc45d2a5afeb3e34c7935, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  connectText: {fileID: 810891121}
-  Player: {fileID: 1682611587935244, guid: 39c99c0ef49c64bc2827ba1646e9f846, type: 2}
-  spawnPoint: {fileID: 275514499}
-  lobbyCamera: {fileID: 1027697701}
-  contador: 0
---- !u!4 &1420026062
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1420026060}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1518467791
 Prefab:
   m_ObjectHideFlags: 0

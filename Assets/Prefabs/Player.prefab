@@ -52,12 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0804f8816ccf4f48962655bf79108a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
-  playerControlScripts: []
-  MyButton: {fileID: 0}
-  EL_TEXTO: {fileID: 0}
-  mytexto: {fileID: 0}
-  playerHealth: 100
+  players: []
 --- !u!114 &114987065075645242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,8 +64,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pvCache: {fileID: 0}
   ownerId: 0
   group: 0
+  mixedModeIsReliable: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
   synchronization: 0
@@ -83,4 +80,8 @@ MonoBehaviour:
   viewIdField: 0
   instantiationId: -1
   currentMasterID: -1
+  didAwake: 0
   isRuntimeInstantiated: 0
+  removedFromLocalViewList: 0
+  RpcMonoBehaviours: []
+  failedToFindOnSerialize: 0
