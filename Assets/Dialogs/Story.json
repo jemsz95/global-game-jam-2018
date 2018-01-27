@@ -41,7 +41,7 @@
             ],
             "character": 0,
             "nextType": 1,
-            "next": 3
+            "next": 2
         },
         {
             "id": 3,
@@ -52,7 +52,9 @@
                 "pero hoy tenía muchas ganas de llegar rápido a trabajar para empezar el día.",
                 "#Godin"
             ],
-            "character": 0
+            "character": 0,
+            "nextType": 0,
+            "next": 18
         },
         {
             "id": 4,
@@ -65,7 +67,9 @@
                 "me tuve que encontrar con Lucius,",
                 "un compañero del trabajo que parecía tener una vendetta en contra mía."
             ],
-            "character": 0
+            "character": 0,
+            "nextType": 1,
+            "next": 6
         },
         {
             "id": 5,
@@ -101,7 +105,7 @@
             ],
             "character": 0,
             "nextType": 1,
-            "next": 4
+            "next": 3
         },
         {
             "id": 8,
@@ -156,7 +160,7 @@
             ],
             "character": 0,
             "nextType": 1,
-            "next": 5
+            "next": 4
         },
         {
             "id": 11,
@@ -173,7 +177,7 @@
             ],
             "character": 0,
             "nextType": 1,
-            "next": 6
+            "next": 5
         },
         {
             "id": 12,
@@ -216,8 +220,155 @@
                 "o lo que sea que quisiera robarme alv.",
                 "Le hice frente y logré derrotarlo con mis artes marciales de capoeria avanzado 5.3.",
                 "Tristemente mis clases de MMAORPGZF ultra boost plus no me habían servido de nada",
-                "en la pelea, alcancé a detectar que mi asaltante me había quitado la piedra filosofal que siempre cargaba en mi bolsillo izquierdo. Mientras moría lentamente alcancé a ver a Alex, me sujetaba entre sus brazos mientras lloraba, al menos moriría en los brazos de mi amad@."
-            ]
+                "en la pelea, alcancé a detectar que mi asaltante me había quitado", 
+                "la piedra filosofal que siempre cargaba en mi bolsillo izquierdo.",
+                "Mientras moría lentamente alcancé a ver a Alex,",
+                "me sujetaba entre sus brazos mientras lloraba,",
+                "al menos moriría en los brazos de mi amad@."
+            ],
+            "character": 0,
+            "nextType": 2,
+            "next": 0
+        },
+        {
+            "id": 15,
+            "paragraphs": [
+                "Por mucho que me cagara la madre el pendejo de Lucius,",
+                "no iba a dejar que nada arruinara este día,",
+                "decidí tratarlo bien y demostrarle lo buena persona que podía llegar a ser.",
+                "Ambos llegamos juntos al trabajo."
+            ],
+            "character": 0,
+            "nextType": 0,
+            "next": 18
+        },
+        {
+            "id": 16,
+            "paragraphs": [
+                "Decidí no tratarlo bien.",
+                "Sin embargo eso vendría con sus respectivas consecuencias."
+            ],
+            "character": 0,
+            "nextType": 0,
+            "next": 17
+        },
+        {
+            "id": 17,
+            "paragraphs": [
+                "Empujé a Lucius a un lado sin que el se diera cuenta,",
+                "pero otros pasajeros del autobús vieron mi conducta agresiva",
+                "ante lo que para ellos era un inocente y decidieron forzarme a dejar el camión.",
+                "Una victoria para Lucius, pero había valido la pena."
+            ],
+            "character": 0,
+            "nextType": 0,
+            "next": 10
+        },
+        {
+            "id": 18,
+            "paragraphs": [
+                "Finalmente había llegado a la oficina,",
+                "tenia que continuar trabajando en el juego arbaito.",
+                "Agarré uno de los snacks gratis y decidí ir a mi estación de desarrollo.",
+                "Era muy divertido poder trabajar desarrollando videojuegos que llegarán a muchas personas",
+                "en diferentes partes del mundo."
+            ],
+            "character": 0,
+            "nextType": 1,
+            "next": 7
+        },
+        {
+            "id": 19,
+            "paragraphs": [
+                "Hoy era un buen día,",
+                "había llegado temprano al trabajo",
+                "e incluso había logrado evitar un problema con Lucius.",
+                "Me sentía bien, hablé de cosas muy interesantes con Alex.",
+                "Terminé tan motivado que decidí ir a Zentral park en la hora de comida.",
+                "Iría por un tasty ass pretzel."
+            ],
+            "character": 0,
+            "nextType": 0,
+            "next": 11
+        },
+        {
+            "id": 20,
+            "paragraphs": [
+                "Decidí evitar el contacto con Alex.",
+                "No me sentía listo para una plática más allá de un simple ¿Cómo estas?.",
+                "Siempre había sido muy timido cuando se trataba",
+                "de relacionarme con personas que me parecían atractivas.",
+                "Me quedé en la oficina simplemente para avanzar en los trabajos que tenía pendientes."
+            ],
+            "character": 0,
+            "nextType": 1,
+            "next": 8
+        },
+        {
+            "id": 21,
+            "paragraphs": [
+                "El trabajo me ayudaría a alejar mi mente",
+                "del hecho que aunque todo había empezado como un buen día,",
+                "no había tenido el valor de hablar con Alex.",
+                "Completé tan rápido mis encargos pendientes que mi jefe me felicitó.",
+                "Lucius se puso celoso de que recibiera reconocimiento",
+                "por parte de uno de nuestros superiores.",
+                "De repente me empezaba a sentir mal,", 
+                "me costaba trabajo respirar.", 
+                "¿ Acaso Lucius había puesto algo en mi bebida?",
+                "Lo único que pude ver antes de morir fue una silueta parecida a la suya",
+                "y escuchar los gritos de quien parecía ser Alex."
+            ],
+            "character": 0,
+            "nextType": 2,
+            "next": 0
+        },
+        {
+            "id": 22,
+            "paragraphs": [
+                "No tenía más ánimos de trabajar,",
+                "solo podía pensar en como no había podido saludar a Alex,",
+                "decidí matar el tiempo jugando unas partidas de solitario.",
+                "Se acabo el día y regresé a casa después de un días bastante meh…",
+                "Me dí cuenta que mi casa se estaba incendiando,",
+                "Royal probablemente seguía adentro,",
+                "no había tenido tiempo de sacarlo a pasear últimamente,",
+                "probablemente el hubiera ocasionado el fuego,",
+                "o tal vez todo había sido planeado por Lucius,",
+                "de cualquier manera, tenía que entrar a rescatarlo"
+            ],
+            "character": 0,
+            "nextType": 1,
+            "next": 9
+        },
+        {
+            "id": 23,
+            "paragraphs": [
+                "Decidí no arriesgarme y esperar a que los bomberos llegaran.",
+                "Tristemente no llegaron a tiempo,", 
+                "había perdido a mi mejor amigo.",
+                "Después de eso continué mis días deprimido hasta que morí de una sobredosis."
+            ],
+            "character": 0,
+            "nextType": 2,
+            "next": 0
+        },
+        {
+            "id": 24,
+            "paragraphs": [
+                "Royal siempre había sido un good boi,",
+                "no podía dejarlo morir,",
+                "incluso si lograba rescatar su cuerpo,", 
+                "el intento habría valido la pena.",
+                "Al entrar escuché sus ladridos viniendo de la cocina.",
+                "Cuando entré lo vi tirado abajo de un pedazo de madera que se había caído de la puerta.",
+                "Logré mover la madera que lo aplastaba quemandome un poco las manos.",
+                "Con mis últimas fuerzas, lancé a Royal por la venta.",
+                "Logré salvarlo pero no alcancé a salvarme a mi..."
+            ],
+            "character": 0,
+            "nextType": 2,
+            "next": 0
         }
     ],
     "questions": [
@@ -230,6 +381,96 @@
             ],
             "yes": 1,
             "no": 2
+        },
+        {
+            "id": 1,
+            "text": "¿Ir en carro al trabajo?",
+            "answers": [
+                "Me había comprado un carro del año...",
+                "Aunque tenía carro propio, me gustaba ir en el transporte"
+            ],
+            "yes": 3,
+            "no": 4
+        },
+        {
+            "id": 2,
+            "text": "Desayunar",
+            "answers": [
+                "Decidí que mi crisis existencial se debía a un ataque de hambre",
+                "Decidí ver memes para pasar mi mañana."
+            ],
+            "yes": 5,
+            "no": 6
+        },
+        {
+            "id": 3,
+            "text": "¿Sacas a pasear a tu perro?",
+            "answers": [
+                "Saqué a pasear a Royal...",
+                "Decidí ir al parque a correr."
+            ],
+            "yes": 8,
+            "no": 9
+        },
+        {
+            "id": 4,
+            "text": "Te asaltan, ¿corres?",
+            "answers": [
+                "Decidí salir corriendo",
+                "Decidí no correr de mi asaltante y pelear por mi vida"
+            ],
+            "yes": 12,
+            "no": 13
+        },
+        {
+            "id": 5,
+            "text": "Te asaltan, ¿corres?",
+            "answers": [
+                "Decidí salir corriendo",
+                "Decidí no correr de mi asaltante y pelear por mi vida"
+            ],
+            "yes": 12,
+            "no": 14
+        },
+        {
+            "id": 6,
+            "text": "¿Tratar bien a Lucius?",
+            "answers": [
+                "Por mucho que me cagara",
+                "Decidí no tratarlo bien."
+            ],
+            "yes": 15,
+            "no": 16
+        },
+        {
+            "id": 7,
+            "text": "¿Saludas a tu crush?",
+            "answers": [
+                "Hoy era un buen día...",
+                "Decidí evitar el contacto con Alex"
+            ],
+            "yes": 19,
+            "no": 20
+        },
+        {
+            "id": 8,
+            "text": "¿Trabajar?",
+            "answers": [
+                "El trabajo me ayudaría a despejar mi mente",
+                "No tenía más ánimos de trabajar"
+            ],
+            "yes": 21,
+            "no": 22
+        },
+        {
+            "id": 9,
+            "text": "¿Rescatas a tu perro?",
+            "answers": [
+                "Royal siempre había sido un good boi",
+                "Decidí no arriesgarme"
+            ],
+            "yes": 24,
+            "no": 23
         }
     ]
 }
