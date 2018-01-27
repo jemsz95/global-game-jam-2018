@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PhotonNetworkManager : Photon.MonoBehaviour {
 
 	[SerializeField]private Text connectText;
+	[SerializeField]private Text PlayerCountTextBox; 
 	[SerializeField]private GameObject Player;
 	private PlayerNetwork playerNetwork; 
 	public PlayerScript playerInstance; 
@@ -38,7 +39,7 @@ public class PhotonNetworkManager : Photon.MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		PlayerCountTextBox.text = PlayerNetwork.PlayerCount + "" ; 
 		connectText.text = PhotonNetwork.connectionStateDetailed.ToString ();
 	}
 }
