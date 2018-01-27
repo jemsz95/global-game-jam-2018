@@ -5,8 +5,8 @@ namespace CustomLibrary {
 		Ghosty, Lucius, Alex, Royal
 	}
 
-	public enum NextType {
-		Dialog, Question
+	public enum NodeType {
+		Dialog, Question, None
 	}
 
 	[Serializable]
@@ -14,7 +14,7 @@ namespace CustomLibrary {
 		public int id;
 		public string[] paragraphs;
 		public Character character;
-		public NextType nextType;
+		public NodeType nextType;
 		public int next;
 	}
 }
