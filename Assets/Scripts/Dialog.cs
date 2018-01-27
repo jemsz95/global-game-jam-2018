@@ -6,7 +6,7 @@ namespace CustomLibrary {
 	}
 
 	public enum NextType {
-		Dialog, Question
+		Dialog, Question, None
 	}
 
 	[Serializable]
