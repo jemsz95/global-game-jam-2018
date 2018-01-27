@@ -103,7 +103,7 @@ namespace CustomLibrary {
 			if (CurrentState == StoryStates.Vacio) {
 				//no hagas nada
 			}
-
+			return CurrentState; 
 		}
 	}
 }
