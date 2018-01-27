@@ -4,13 +4,13 @@
         {
             "id": 0,
             "paragraphs": [
-                "Oh... hello there",
+                "Oh... hello there!",
                 "Mi nombre es Ghosty",
                 "Todo empezó un día de abril, con una serie de decisiones que me llevaron a terminar de esta manera.",
-                "¿Cómo me convertí en fantasma?",
-                "La verdad es que no recuerdo todo lo que pasó",
-                "pero se que recuerdo los sucesos importantes de aquel día.",
-                "Desperté aquel miércoles de abril con una simple decisión…"
+                "¿Cómo me convertí en fantasma? \n La verdad es que no recuerdo todo lo que pasó...",
+                "Pero se que recuerdo los sucesos importantes de aquel día.",
+				"Desperté aquel miércoles de abril con una simple decisión…"
+
             ],
             "character": 0,
             "nextType": 1,
@@ -19,10 +19,8 @@
         {
             "id": 1,
             "paragraphs": [
-                "Esta mañana me sentía con animos de trabajar, me gustaba bastante mi trabajo",
-                "Al fin hab[ia conseguido mi trabajo soñado",
-                "desarrollador de videojuegos en Nientiendo.", 
-                "Con sede en la hermosa ciudad de Sokyo."
+                "Esa mañana me sentía con animos de trabajar, me gustaba bastante mi trabajo. Al fin habia conseguido mi trabajo soñado! \n'Desarrollador de videojuegos en Nientiendo.'", 
+                "Cuya sede se encuentra en la hermosa ciudad de Sokyo."
             ],
             "character": 0,
             "nextType": 1,
@@ -33,11 +31,10 @@
             "paragraphs": [
                 "Tenía tiempo cuestionando mi meta en la vida y la razón por la que vivo.",
                 "Había conseguido el trabajo de mis sueños, pero ¿qué seguía después de eso?",
-                "Fracasas en algo y sigues intentando, pero si lo consigues, solo te sientes satisfecho por un momento",
-                "y después… ¿qué?",
-                "simplemente te sigues exigiendo y nunca eres feliz…",
-                "o tal vez lo eres por ciertos momentos…",
-                "quizás solo tenía hambre."
+				"Fracasas en algo y sigues intentando, pero si lo consigues, solo te sientes satisfecho por un momento y.. ¿después qué?",
+                "Simplemente te sigues exigiendo y nunca eres feliz…",
+                "O tal vez lo eres por ciertos momentos…",
+                "Quizás solo tenía hambre."
             ],
             "character": 0,
             "nextType": 1,
@@ -47,10 +44,9 @@
             "id": 3,
             "paragraphs": [
                 "Me había comprado un carro del año, un Koyota Pruis", 
-                "uno de esos carros que se manejan solos y hacen que te crezca el ego como persona.",
-                "Normalmente lo usaba para ir al parque",
-                "pero hoy tenía muchas ganas de llegar rápido a trabajar para empezar el día.",
-                "#Godin"
+                "Uno de esos carros que se manejan solos y hacen que te crezca el ego como persona.",
+                "Normalmente lo usaba para ir al parque pero hoy tenía muchas ganas de llegar rápido a trabajar para empezar el día.",
+                "<b>#Godin<b>"
             ],
             "character": 0,
             "nextType": 0,
@@ -60,12 +56,10 @@
             "id": 4,
             "paragraphs": [
                 "Aunque tenía carro propio, me gustaba ir en el transporte público",
-                "a veces conocía gente interesante",
-                "o simplemente por el hecho de poder ir leyendo mientras me transporte.",
+                "A veces conocía gente interesante o simplemente por el hecho de poder ir leyendo mientras me transporte.",
                 "Sin embargo esta vez el viaje en camión no fue una experiencia agradable.",
-                "De todas las personas con las que me podía haber topado,",
-                "me tuve que encontrar con Lucius,",
-                "un compañero del trabajo que parecía tener una vendetta en contra mía."
+                "De todas las personas con las que me podía haber topado, me tuve que encontrar con Lucius,",
+                "Lucious es un compañero del trabajo que parecía tener una vendetta en contra mía."
             ],
             "character": 0,
             "nextType": 1,
@@ -74,9 +68,8 @@
         {
             "id": 5,
             "paragraphs": [
-                "Decidí que mi crisis existencial se debía a un ataque de hambre",
-                "y la weba de cocinar.",
-                "Desayuné mi cereal favorito, Cheeryos."
+                "Decidí que mi crisis existencial se debía a un ataque de hambre y la weba de cocinar.",
+                "Desayuné mi cereal favorito: Cheeryos."
             ],
             "character": 0,
             "nextType": 0,
@@ -86,8 +79,7 @@
             "id": 6,
             "paragraphs": [
                 "Decidí ver memes para pasar mi mañana.",
-                "Reddit siempre tiene los mejores dank memes para empezar el día,",
-                "esperaba que eso me alejara un poco de mi depresión."
+                "Reddit siempre tiene los mejores dank memes para empezar el día.\nEsperaba que eso me alejara un poco de mi depresión."
             ],
             "character": 0,
             "nextType": 0,
@@ -110,22 +102,12 @@
         {
             "id": 8,
             "paragraphs": [
-                "Saqué a pasear a Royal. Era una buena compañía para cuando regresaba del trabajo",
-                "y llevaba tiempo sin llevarla al parque,",
-                "así que decidí que iríamos juntos a correr",
-                "y posiblemente hacer nuevos amigos.",
-                "Terminé en el parque donde había pasado toda mi niñez con mis padres,",
-                "Zentral park. Ellos habían decidido pasear por el mundo una vez que me volví independiente.", 
-                "Esa tarde en el parque me topé con mi crush, Alex",
-                "se acercó a platicar conmigo porque le gustó mi perro,",
-                "me preguntó por qué había faltado al trabajo aquel día.",
-                "Hablamos bastante aquella tarde,",
-                "resulta que teníamos más intereses en común de los que había pensado.",
-                "Aparte del amor por los animales.",
-                "Tuve una vida longeva con el amor de mi vida,",
-                "mi mascota,",
-                "sus crías futuras",
-                "y los hijos que tuvimos Alex y yo.",
+                "Saqué a pasear a Royal. Era una buena compañía para cuando regresaba del trabajo y llevaba tiempo sin llevarla al parque, así que decidí que iríamos juntos a correr y posiblemente hacer nuevos amigos.",
+                "Terminé en el parque donde había pasado toda mi niñez con mis padres, Zentral park. Ellos habían decidido pasear por el mundo una vez que me volví independiente.", 
+                "Esa tarde en el parque me topé con mi crush, Alex, se acercó a platicar conmigo porque le gustó mi perro, me preguntó por qué había faltado al trabajo aquel día.",
+                "Hablamos bastante aquella tarde, resulta que teníamos más intereses en común de los que había pensado...",
+                "aparte del amor por los animales.",
+                "Tuve una vida longeva con el amor de mi vida, mi mascota, sus crías futuras, y los hijos que tuvimos Alex y yo.",
                 "Al final, le había encontrado un significado más profundo a la vida,",
                 "algo más que solo trabajar sin una meta específica."
             ],
@@ -386,15 +368,15 @@
             "id": 1,
             "text": "¿Ir en carro al trabajo?",
             "answers": [
-                "Me había comprado un carro del año...",
-                "Aunque tenía carro propio, me gustaba ir en el transporte"
+                "Estrenar carro del año.",
+                "Me gustaba ir en el transporte publico."
             ],
             "yes": 3,
             "no": 4
         },
         {
             "id": 2,
-            "text": "Desayunar",
+            "text": "¿Desayunar?",
             "answers": [
                 "Decidí que mi crisis existencial se debía a un ataque de hambre",
                 "Decidí ver memes para pasar mi mañana."
@@ -414,7 +396,7 @@
         },
         {
             "id": 4,
-            "text": "Te asaltan, ¿corres?",
+            "text": "¿Te asaltan o corres?",
             "answers": [
                 "Decidí salir corriendo",
                 "Decidí no correr de mi asaltante y pelear por mi vida"
@@ -424,7 +406,7 @@
         },
         {
             "id": 5,
-            "text": "Te asaltan, ¿corres?",
+            "text": "¿Te asaltan o corres?",
             "answers": [
                 "Decidí salir corriendo",
                 "Decidí no correr de mi asaltante y pelear por mi vida"
