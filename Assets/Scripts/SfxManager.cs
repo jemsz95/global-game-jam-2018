@@ -22,6 +22,17 @@ public class SfxManager : MonoBehaviour {
 	}
 
 	private void OnStateChange(int state) {
-
+		sfx.clip = clipList[state];
+		StartCoroutine(playSound());
     }
+
+	IEnumerator playSound() {
+		while(true) {
+			sfx.Play();
+			while(sfx.isPlaying) {
+				yield return null;
+			}
+			yield return new WaitForSeconds(5);
+		}
+	}
 }
