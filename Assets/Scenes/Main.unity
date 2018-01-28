@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllers:
-  - {fileID: 9100000, guid: ef8f932be9ea14248af9c5681c135820, type: 2}
+  - {fileID: 9100000, guid: f6f583ec8bd7b4044b9dd0d5c8cfd08f, type: 2}
   - {fileID: 9100000, guid: eb693709db331d643b415723ce81bb51, type: 2}
   - {fileID: 9100000, guid: 3ed6902817ad4c04a922addd198ba965, type: 2}
   - {fileID: 0}
