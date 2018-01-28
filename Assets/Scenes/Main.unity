@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteList:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: a65239a7b6584a64f92ad09df5664eee, type: 3}
   - {fileID: 21300000, guid: 33efdb4ec811c674c82beecedfda41ba, type: 3}
   - {fileID: 21300000, guid: 3a2a2123c32b5774d86e269f39e4ed99, type: 3}
   - {fileID: 21300000, guid: 52562df07da0d33448d464c97fd88a6e, type: 3}
