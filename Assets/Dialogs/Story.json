@@ -309,18 +309,11 @@
             "paragraphs": [
                 "No tenía más ánimos de trabajar,",
                 "solo podía pensar en como no había podido saludar a Alex,",
-                "decidí matar el tiempo jugando unas partidas de solitario.",
-                "Se acabo el día y regresé a casa después de un días bastante meh…",
-                "Me dí cuenta que mi casa se estaba incendiando,",
-                "Royal probablemente seguía adentro,",
-                "no había tenido tiempo de sacarlo a pasear últimamente,",
-                "probablemente el hubiera ocasionado el fuego,",
-                "o tal vez todo había sido planeado por Lucius,",
-                "de cualquier manera, tenía que entrar a rescatarlo"
+                "decidí matar el tiempo jugando unas partidas de solitario."
             ],
             "character": 0,
-            "nextType": 1,
-            "next": 9
+            "nextType": 0,
+            "next": 25
         },
         {
             "id": 23,
@@ -350,6 +343,21 @@
             "character": 0,
             "nextType": 2,
             "next": 0
+        },
+        {
+            "id": 25,
+            "paragraphs": [
+                "Se acabo el día y regresé a casa después de un días bastante meh…",
+                "Me dí cuenta que mi casa se estaba incendiando,",
+                "Royal probablemente seguía adentro,",
+                "no había tenido tiempo de sacarlo a pasear últimamente,",
+                "probablemente el hubiera ocasionado el fuego,",
+                "o tal vez todo había sido planeado por Lucius,",
+                "de cualquier manera, tenía que entrar a rescatarlo"
+            ],
+            "character": 0,
+            "nextType": 1,
+            "next": 9
         }
     ],
     "questions": [

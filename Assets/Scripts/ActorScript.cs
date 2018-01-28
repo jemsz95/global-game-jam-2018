@@ -6,7 +6,7 @@ public class ActorScript: MonoBehaviour {
 
 	[SerializeField]
 	public RuntimeAnimatorController[] controllers; 
-	private Animator anim; 
+	private Animator anim;
 
 	void Awake () {
 		var dialogComponent = FindObjectOfType<DialogComponent>();
