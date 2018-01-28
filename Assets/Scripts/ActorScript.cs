@@ -15,7 +15,6 @@ public class ActorScript: MonoBehaviour {
 	}
 
 	private void OnStateChange(int state) {
-		Debug.Log(state);
 		anim.runtimeAnimatorController = controllers [state];
 	}
 
