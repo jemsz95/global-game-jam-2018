@@ -39,7 +39,7 @@ public class SceneManagerScript : MonoBehaviour {
 	}
 
 
-	void ReturnToMainMenu(){
+	public void ReturnToMainMenu(){
 		SceneManager.LoadScene (0); 
 	}
 
