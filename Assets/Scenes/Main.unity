@@ -556,7 +556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteList:
   - {fileID: 21300000, guid: a65239a7b6584a64f92ad09df5664eee, type: 3}
-  - {fileID: 21300000, guid: 33efdb4ec811c674c82beecedfda41ba, type: 3}
+  - {fileID: 21300000, guid: 3a2a2123c32b5774d86e269f39e4ed99, type: 3}
   - {fileID: 21300000, guid: 3a2a2123c32b5774d86e269f39e4ed99, type: 3}
   - {fileID: 21300000, guid: 52562df07da0d33448d464c97fd88a6e, type: 3}
   - {fileID: 21300000, guid: d311db098971bea4e84d56b97d58831a, type: 3}
@@ -1633,7 +1633,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0b54a3b09558d03459827e7e457ed4a3, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1844,7 +1844,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0b54a3b09558d03459827e7e457ed4a3, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllers:
-  - {fileID: 9100000, guid: ef8f932be9ea14248af9c5681c135820, type: 2}
+  - {fileID: 9100000, guid: eed873a5a5c6df24c9960e6ecdf4e17b, type: 2}
   - {fileID: 9100000, guid: eb693709db331d643b415723ce81bb51, type: 2}
   - {fileID: 9100000, guid: 3ed6902817ad4c04a922addd198ba965, type: 2}
   - {fileID: 0}
@@ -2817,7 +2817,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0b54a3b09558d03459827e7e457ed4a3, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
