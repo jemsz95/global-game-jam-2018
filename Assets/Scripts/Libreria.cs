@@ -10,11 +10,11 @@ namespace CustomLibrary {
 	public class Story {
 		public int id = 0;
 		public Dialog[] dialogs = null;
-		public Question[] questions = null; 
+		public Question[] questions = null;
 	}
 
 	[Serializable] 
-	public class DialogTree{
+	public class DialogTree {
 		public Question question; 
 		public Dialog dialog; 
 		public DialogTree yes, no; 
