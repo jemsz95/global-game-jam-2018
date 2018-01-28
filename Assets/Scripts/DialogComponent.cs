@@ -7,6 +7,8 @@ using CustomLibrary;
 public class DialogComponent : MonoBehaviour {
 
 	public TextAsset Dialogs;
+	public delegate void OnStateChangeListener(int state);
+	public event OnStateChangeListener stateChange;
 	
 	private Story story;
 	private TalkingTextFunctionality DialogBox;
@@ -43,6 +45,7 @@ public class DialogComponent : MonoBehaviour {
 
 	void WriteNextDialog(){
 		if (iterator.nodeType == NodeType.Dialog) {
+			stateChange(iterator.dialog.id);
 			DialogBox.StartWriting (iterator.dialog.paragraphs); 
 		}else if(iterator.nodeType == NodeType.Question){
 			QuestionBox.StartWriting (iterator.question.text, iterator.question.answers); 
