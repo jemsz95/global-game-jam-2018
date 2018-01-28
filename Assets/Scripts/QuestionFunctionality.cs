@@ -77,12 +77,10 @@ public class QuestionFunctionality : MonoBehaviour {
 			yield return null;
 		}
 		OnOptionSelected(selected);
-		audioSrc.clip = SelectOptionAudioClip;
-		audioSrc.loop = false;
-		audioSrc.Play();
 	}
 
 	IEnumerator WriteText() {
+		audioSrc.Stop();
 		hurryUpCoroutine = StartCoroutine (ListenHurryUp ()); 
 		message.text = "";
 		playTextAudio();

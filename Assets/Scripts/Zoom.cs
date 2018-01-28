@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class Zoom : MonoBehaviour {
 
 	bool dale;
-	[SerializeField] private  GameObject La_Tele;
-	[SerializeField] private  Image Fade, FadeOut;
+	[SerializeField] private  GameObject La_Tele, WaveVision;
+	[SerializeField] private  Image Fade;
 	float YP, XP, WP, HP, Volumen;
 	Color Blank_Fade;
 	[SerializeField] private AudioClip static_tv;
@@ -22,8 +22,8 @@ public class Zoom : MonoBehaviour {
 		Fade.color=new Color(1, 1, 1, 0);
 		Blank_Fade = new Color (1, 1, 1, 0);
 		audiosource = this.GetComponent<AudioSource> ();
+		audiosource.loop = true;
 		Volumen =1;
-		FadeOut.color = new Color (1, 1, 1, 0);
 
 	}
 	
@@ -41,21 +41,22 @@ public class Zoom : MonoBehaviour {
 			HP += 0.005f;
 			La_Tele.GetComponent<Camera> ().rect=new Rect(XP, YP, WP, HP);
 
-			if (WP > 1 && Fade.color.a<1) {
-				Blank_Fade.a += 0.005f;
+			if (WP > 1f && WP < 2f) {
+				Blank_Fade.a += 0.007f;
 				Fade.color = Blank_Fade;
-				FadeOut.color = Blank_Fade;
+				//FadeOut.color = Blank_Fade;
 			}
 
-			if (Fade.color.a >= 1) {
-				Blank_Fade.a -= 0.005f;
+			if (WP > 1.8f) {
+				Blank_Fade.a -= 0.008f;
 				Volumen -= 0.006f;
 				La_Tele.SetActive (false);
 				audiosource.volume = Volumen;
-				FadeOut.color = Blank_Fade;
+				Fade.color = Blank_Fade;
 			}
-				
-				
+
+			if(WP>2f)
+			WaveVision.GetComponent<WaveVision> ().ON = true;
 		}
 			
 	}
