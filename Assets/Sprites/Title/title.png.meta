@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 599632db1ff941a4fbe8199523ab2b75
-timeCreated: 1517168577
+guid: feb1b12fa498a63478db82ae6f9cf65e
+timeCreated: 1517169638
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: compu_sillasolitaire_0
-    21300002: compu_sillasolitaire_1
-    21300004: compu_sillasolitaire_2
+    21300000: title_0
+    21300002: title_1
+    21300004: title_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -83,43 +83,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: compu_sillasolitaire_0
+      name: title_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 824
-        width: 600
-        height: 412
+        y: 497
+        width: 700
+        height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: compu_sillasolitaire_1
+      name: title_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 412
-        width: 600
-        height: 412
+        y: 247
+        width: 700
+        height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: compu_sillasolitaire_2
+      name: title_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 412
+        width: 700
+        height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
