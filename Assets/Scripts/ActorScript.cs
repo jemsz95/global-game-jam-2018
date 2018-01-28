@@ -8,15 +8,15 @@ public class ActorScript: MonoBehaviour {
 	public RuntimeAnimatorController[] controllers; 
 	private Animator anim; 
 
-	void Start () {
+	void Awake () {
 		var dialogComponent = FindObjectOfType<DialogComponent>();
 		dialogComponent.stateChange += OnStateChange;
-		anim = this.gameObject.GetComponent<Animator> (); 
+		anim = this.gameObject.GetComponent<Animator> ();
 	}
 
 	private void OnStateChange(int state) {
+		Debug.Log(state);
 		anim.runtimeAnimatorController = controllers [state];
-		anim.StartPlayback();
 	}
 
 
