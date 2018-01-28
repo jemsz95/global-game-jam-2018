@@ -23,7 +23,6 @@ public class BackgroundManager : MonoBehaviour {
 	}
 
 	private void OnStateChange(int state) {
-		Debug.Log(state);
 		background.sprite = spriteList[state];
 	}
 }
