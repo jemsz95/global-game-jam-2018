@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 41d982151dda4c84a8710dfcd2d9c55b
-timeCreated: 1517163518
+guid: e23714c28cf150f459bf60df819e0c25
+timeCreated: 1517167049
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: dead_0
-    21300002: dead_1
-    21300004: dead_2
+    21300000: bus_0
+    21300002: bus_1
+    21300004: bus_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -35,7 +35,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -83,13 +83,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dead_0
+      name: bus_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 305
-        width: 242
-        height: 138
+        x: 15
+        y: 892
+        width: 770
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -97,13 +97,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: dead_1
+      name: bus_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 153
-        width: 245
-        height: 138
+        x: 13
+        y: 449
+        width: 772
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,13 +111,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: dead_2
+      name: bus_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 2
-        width: 243
-        height: 139
+        x: 8
+        y: 3
+        width: 776
+        height: 425
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
