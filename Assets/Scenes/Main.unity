@@ -1886,6 +1886,26 @@ Prefab:
       propertyPath: m_FontData.m_FontSize
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 114696188051369908, guid: 8244cf8203b794e90b322dc1e059ac71,
+        type: 2}
+      propertyPath: TextClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 86021cc40b9ff46c4b75a24366a01d9d, type: 3}
+    - target: {fileID: 114696188051369908, guid: 8244cf8203b794e90b322dc1e059ac71,
+        type: 2}
+      propertyPath: TextTrailClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 95bc4deac4be347fea0b0126ab3b4deb, type: 3}
+    - target: {fileID: 114608456241362488, guid: 8244cf8203b794e90b322dc1e059ac71,
+        type: 2}
+      propertyPath: TextClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 86021cc40b9ff46c4b75a24366a01d9d, type: 3}
+    - target: {fileID: 114608456241362488, guid: 8244cf8203b794e90b322dc1e059ac71,
+        type: 2}
+      propertyPath: TextTrailClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 95bc4deac4be347fea0b0126ab3b4deb, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8244cf8203b794e90b322dc1e059ac71, type: 2}
   m_IsPrefabParent: 0
@@ -1894,6 +1914,91 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224540494167654572, guid: 8244cf8203b794e90b322dc1e059ac71,
     type: 2}
   m_PrefabInternal: {fileID: 1518467791}
+--- !u!1 &1558262419 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1688001427987932, guid: 8244cf8203b794e90b322dc1e059ac71,
+    type: 2}
+  m_PrefabInternal: {fileID: 1518467791}
+--- !u!82 &1558262422
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1558262419}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1581790599
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,13 +14,17 @@ public class QuestionFunctionality : MonoBehaviour {
 	private string[] options;
 	private bool hurryUp = false;
 	private QuestionAnswer selected;
+	private AudioSource audioSrc;
 	
 	public delegate void OptionHandler(QuestionAnswer ans);
 	public event OptionHandler OnOptionSelected;
+	public AudioClip TextClip;
+	public AudioClip TextTrailClip;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		message = gameObject.GetComponentInChildren<Text> ();
+		audioSrc = GetComponent<AudioSource>();
 	}
 	
 	public void StartWriting(string question, string[] options){
@@ -42,6 +46,18 @@ public class QuestionFunctionality : MonoBehaviour {
 		}
 	}
 	
+	private void playAudio() {
+		audioSrc.loop = true;
+		audioSrc.clip = TextClip;
+		audioSrc.Play();
+	}
+	private void stopAudio() {
+		audioSrc.Stop();
+		audioSrc.loop = false;
+		audioSrc.clip = TextTrailClip;
+		audioSrc.Play();
+	}
+
 	IEnumerator WaitForOption() {
 		selected = QuestionAnswer.Yes;
 		yield return new WaitForEndOfFrame(); 
@@ -63,12 +79,14 @@ public class QuestionFunctionality : MonoBehaviour {
 
 	IEnumerator WriteText() {
 		hurryUpCoroutine = StartCoroutine (ListenHurryUp ()); 
-		message.text = ""; 
+		message.text = "";
+		playAudio();
 		foreach(char letter in question){
 			message.text += letter;  
 			yield return new WaitForSeconds(0); 
 		}
 		StopCoroutine (hurryUpCoroutine); 
+		stopAudio();
 		yield return StartCoroutine(WaitForOption());
 	}
 

@@ -260,16 +260,8 @@ MonoBehaviour:
   _hyperSpeed: 0
   _globalAlpha: 1
   _transition: 1
-  _transitionColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  _backgroundColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
+  _transitionColor: {r: 0, g: 0, b: 0, a: 1}
+  _backgroundColor: {r: 0, g: 0, b: 0, a: 1}
   _fallOff: 4
   _blendInOrder: 0
   _layersSpeed: 0.81
@@ -303,11 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SCShader: {fileID: 4800000, guid: 04df29b8b9c204e46a0df308fe1e2b77, type: 3}
-  Pencil_Color:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  Pencil_Color: {r: 0, g: 0, b: 0, a: 0}
   Pencil_Size: 0.00125
   Pencil_Correction: 0.35
   Intensity: 1
@@ -315,11 +303,7 @@ MonoBehaviour:
   Corner_Lose: 1
   Fade_Paper_to_BackColor: 0
   Fade_With_Original: 1
-  Back_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  Back_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &351046197
 MonoBehaviour:
   m_ObjectHideFlags: 0
