@@ -4,9 +4,6 @@ using UnityEngine;
 using UnityEngine.UI; 
 
 public class TalkingTextFunctionality : MonoBehaviour {
-	[Range(0,0.5f)]
-	public float WritingTime = 0; 
-
 	private Text message;
 	private Coroutine current;
 	private Coroutine hurryUpCoroutine;
@@ -16,7 +13,7 @@ public class TalkingTextFunctionality : MonoBehaviour {
 	public delegate void DialogHandler (); 
 	public event DialogHandler FinishedWriting;
 
-	void Awake(){
+	void Start(){
 		message = gameObject.GetComponentInChildren<Text> (); 
 		current = null; 
 	}
@@ -44,7 +41,7 @@ public class TalkingTextFunctionality : MonoBehaviour {
 			foreach(char letter in paragraph){
 				message.text += letter;  
 				if (!hurryUp) {
-					yield return new WaitForSeconds (WritingTime * Time.deltaTime); 
+					yield return new WaitForEndOfFrame(); 
 				}
 			} 
 			StopCoroutine(hurryUpCoroutine);
