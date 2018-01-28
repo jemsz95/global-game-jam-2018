@@ -13,9 +13,10 @@ public class TalkingTextFunctionality : MonoBehaviour {
 	public delegate void DialogHandler (); 
 	public event DialogHandler FinishedWriting;
 
-	void Start(){
+	void Awake(){
 		message = gameObject.GetComponentInChildren<Text> (); 
 		current = null; 
+		Debug.Log(message);
 	}
 		
 	public void StartWriting(string[] dialog){
