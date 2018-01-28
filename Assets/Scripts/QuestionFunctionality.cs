@@ -18,8 +18,9 @@ public class QuestionFunctionality : MonoBehaviour {
 	
 	public delegate void OptionHandler(QuestionAnswer ans);
 	public event OptionHandler OnOptionSelected;
-	public AudioClip TextClip;
-	public AudioClip TextTrailClip;
+	public AudioClip TextAudioClip;
+	public AudioClip TextTrailAudioClip;
+	public AudioClip SelectOptionAudioClip;
 
 	// Use this for initialization
 	void Awake () {
@@ -46,15 +47,16 @@ public class QuestionFunctionality : MonoBehaviour {
 		}
 	}
 	
-	private void playAudio() {
+	private void playTextAudio() {
 		audioSrc.loop = true;
-		audioSrc.clip = TextClip;
+		audioSrc.clip = TextAudioClip;
 		audioSrc.Play();
 	}
-	private void stopAudio() {
+
+	private void stopTextAudio() {
 		audioSrc.Stop();
 		audioSrc.loop = false;
-		audioSrc.clip = TextTrailClip;
+		audioSrc.clip = TextTrailAudioClip;
 		audioSrc.Play();
 	}
 
@@ -75,18 +77,21 @@ public class QuestionFunctionality : MonoBehaviour {
 			yield return null;
 		}
 		OnOptionSelected(selected);
+		audioSrc.clip = SelectOptionAudioClip;
+		audioSrc.loop = false;
+		audioSrc.Play();
 	}
 
 	IEnumerator WriteText() {
 		hurryUpCoroutine = StartCoroutine (ListenHurryUp ()); 
 		message.text = "";
-		playAudio();
+		playTextAudio();
 		foreach(char letter in question){
 			message.text += letter;  
 			yield return new WaitForSeconds(0); 
 		}
 		StopCoroutine (hurryUpCoroutine); 
-		stopAudio();
+		stopTextAudio();
 		yield return StartCoroutine(WaitForOption());
 	}
 

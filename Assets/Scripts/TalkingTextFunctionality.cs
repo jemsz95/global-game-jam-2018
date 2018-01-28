@@ -14,8 +14,8 @@ public class TalkingTextFunctionality : MonoBehaviour {
 
 	public delegate void DialogHandler (); 
 	public event DialogHandler FinishedWriting;
-	public AudioClip TextClip;
-	public AudioClip TextTrailClip;
+	public AudioClip TextAudioClip;
+	public AudioClip TextAudioTrailClip;
 
 	void Awake() {
 		message = gameObject.GetComponentInChildren<Text> ();
@@ -40,13 +40,13 @@ public class TalkingTextFunctionality : MonoBehaviour {
 
 	private void playAudio() {
 		audioSrc.loop = true;
-		audioSrc.clip = TextClip;
+		audioSrc.clip = TextAudioClip;
 		audioSrc.Play();
 	}
 	private void stopAudio() {
 		audioSrc.Stop();
 		audioSrc.loop = false;
-		audioSrc.clip = TextTrailClip;
+		audioSrc.clip = TextAudioTrailClip;
 		audioSrc.Play();
 	}
 
